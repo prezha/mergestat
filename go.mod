@@ -5,16 +5,16 @@ go 1.19
 require (
 	github.com/jackc/pgtype v1.13.0
 	github.com/jackc/pgx/v4 v4.17.2
-	github.com/rs/zerolog v1.28.0
+	github.com/rs/zerolog v1.29.0
 )
 
 require (
 	github.com/mattn/go-sqlite3 v1.14.16
-	github.com/mergestat/mergestat-lite v0.5.10
+	github.com/mergestat/mergestat-lite v0.6.1
 )
 
 require (
-	github.com/go-enry/go-enry/v2 v2.8.3
+	github.com/go-enry/go-enry/v2 v2.8.4
 	github.com/go-git/go-git/v5 v5.5.2
 	github.com/golang-migrate/migrate/v4 v4.15.2
 	github.com/golang/mock v1.6.0
@@ -27,16 +27,17 @@ require (
 	github.com/mergestat/sqlq v0.0.0-20230519174807-3352087e8a70
 	github.com/prometheus/client_golang v1.14.0
 	github.com/satori/go.uuid v1.2.0
-	github.com/shurcooL/githubv4 v0.0.0-20221229060216-a8d4a561cc93
+	github.com/shurcooL/githubv4 v0.0.0-20230215024106-420ad0987b9b
 	github.com/xanzy/go-gitlab v0.15.0
-	go.riyazali.net/sqlite v0.0.0-20221017074244-77a6464e0c2a
-	golang.org/x/oauth2 v0.3.0
+	go.riyazali.net/sqlite v0.0.0-20221229061135-0e640ca73f94
+	golang.org/x/oauth2 v0.4.0
 )
 
 require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
+	github.com/libgit2/git2go/v34 v34.0.0 // indirect
 	github.com/pjbgf/sha1cd v0.2.3 // indirect
 	github.com/skeema/knownhosts v1.1.0 // indirect
 )
@@ -72,7 +73,7 @@ require (
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/lib/pq v1.10.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.16 // indirect
+	github.com/mattn/go-isatty v0.0.17 // indirect
 	github.com/mattn/go-pointer v0.0.1 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mergestat/timediff v0.0.3 // indirect
@@ -88,7 +89,7 @@ require (
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	golang.org/x/crypto v0.8.0 // indirect
-	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
